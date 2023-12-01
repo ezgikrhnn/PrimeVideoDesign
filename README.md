@@ -9,5 +9,4 @@ My work inspired by the Prime Video Application homepage design.
 - UINavigationController
 - UITabbarController
   
-
-  ![Simulator Screenshot - iPhone 14 - 2023-12-01 at 18 55 22](https://github.com/ezgikrhnn/PrimeVideoDesign/assets/109277079/c091e5c9-e991-4f3a-8766-13f3530348a7)
+<img width="444" alt="Ekran Resmi 2023-12-01 19 05 04" src="https://github.com/ezgikrhnn/PrimeVideoDesign/assets/109277079/1f70e136-4562-4356-91d3-864931e9a29f">
