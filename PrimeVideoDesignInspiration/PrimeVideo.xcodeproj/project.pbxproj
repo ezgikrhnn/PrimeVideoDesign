@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0794EC2B08DCC20002ED05 /* GenelResimlerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0794EB2B08DCC20002ED05 /* GenelResimlerHucre.swift */; };
+		EC0794F42B0A396D0002ED05 /* AltyazililarHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0794F32B0A396D0002ED05 /* AltyazililarHucre.swift */; };
+		EC0794F62B0A3A7C0002ED05 /* TurkiyeIlk10Hucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0794F52B0A3A7C0002ED05 /* TurkiyeIlk10Hucre.swift */; };
+		EC0794F82B0A3B4E0002ED05 /* OnerilenDiziHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0794F72B0A3B4E0002ED05 /* OnerilenDiziHucre.swift */; };
+		EC0794FB2B0A3BA50002ED05 /* AmazonOrijinallerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0794FA2B0A3BA50002ED05 /* AmazonOrijinallerHucre.swift */; };
+		EC0794FD2B10B1E00002ED05 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0794FC2B10B1E00002ED05 /* Anasayfa.swift */; };
+		EC0795042B1126690002ED05 /* AnasayfaTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0795032B1126690002ED05 /* AnasayfaTabViewController.swift */; };
+		EC177D362AFE40EC002FDE49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC177D352AFE40EC002FDE49 /* AppDelegate.swift */; };
+		EC177D382AFE40EC002FDE49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC177D372AFE40EC002FDE49 /* SceneDelegate.swift */; };
+		EC177D3D2AFE40EC002FDE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC177D3B2AFE40EC002FDE49 /* Main.storyboard */; };
+		EC177D3F2AFE40ED002FDE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC177D3E2AFE40ED002FDE49 /* Assets.xcassets */; };
+		EC177D422AFE40ED002FDE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC177D402AFE40ED002FDE49 /* LaunchScreen.storyboard */; };
+		EC177D522AFE45AD002FDE49 /* FilmlerveDiziler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC177D512AFE45AD002FDE49 /* FilmlerveDiziler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC0794EB2B08DCC20002ED05 /* GenelResimlerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenelResimlerHucre.swift; sourceTree = "<group>"; };
+		EC0794F32B0A396D0002ED05 /* AltyazililarHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltyazililarHucre.swift; sourceTree = "<group>"; };
+		EC0794F52B0A3A7C0002ED05 /* TurkiyeIlk10Hucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkiyeIlk10Hucre.swift; sourceTree = "<group>"; };
+		EC0794F72B0A3B4E0002ED05 /* OnerilenDiziHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnerilenDiziHucre.swift; sourceTree = "<group>"; };
+		EC0794FA2B0A3BA50002ED05 /* AmazonOrijinallerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonOrijinallerHucre.swift; sourceTree = "<group>"; };
+		EC0794FC2B10B1E00002ED05 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Anasayfa.swift; path = data/Anasayfa.swift; sourceTree = "<group>"; };
+		EC0795032B1126690002ED05 /* AnasayfaTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaTabViewController.swift; sourceTree = "<group>"; };
+		EC177D322AFE40EC002FDE49 /* PrimeVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC177D352AFE40EC002FDE49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC177D372AFE40EC002FDE49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC177D3C2AFE40EC002FDE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC177D3E2AFE40ED002FDE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC177D412AFE40ED002FDE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC177D432AFE40ED002FDE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC177D512AFE45AD002FDE49 /* FilmlerveDiziler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerveDiziler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC177D2F2AFE40EC002FDE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC0795002B11258A0002ED05 /* tabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC0795032B1126690002ED05 /* AnasayfaTabViewController.swift */,
+			);
+			path = tabViewController;
+			sourceTree = "<group>";
+		};
+		EC177D292AFE40EC002FDE49 = {
+			isa = PBXGroup;
+			children = (
+				EC177D342AFE40EC002FDE49 /* PrimeVideo */,
+				EC177D332AFE40EC002FDE49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC177D332AFE40EC002FDE49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC177D322AFE40EC002FDE49 /* PrimeVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC177D342AFE40EC002FDE49 /* PrimeVideo */ = {
+			isa = PBXGroup;
+			children = (
+				EC177D4F2AFE44A7002FDE49 /* ui */,
+				EC177D4D2AFE4493002FDE49 /* data */,
+				EC177D352AFE40EC002FDE49 /* AppDelegate.swift */,
+				EC177D372AFE40EC002FDE49 /* SceneDelegate.swift */,
+				EC0794FC2B10B1E00002ED05 /* Anasayfa.swift */,
+				EC177D3B2AFE40EC002FDE49 /* Main.storyboard */,
+				EC177D3E2AFE40ED002FDE49 /* Assets.xcassets */,
+				EC177D402AFE40ED002FDE49 /* LaunchScreen.storyboard */,
+				EC177D432AFE40ED002FDE49 /* Info.plist */,
+			);
+			path = PrimeVideo;
+			sourceTree = "<group>";
+		};
+		EC177D4D2AFE4493002FDE49 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EC177D4E2AFE449D002FDE49 /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		EC177D4E2AFE449D002FDE49 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				EC177D512AFE45AD002FDE49 /* FilmlerveDiziler.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		EC177D4F2AFE44A7002FDE49 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				EC0795002B11258A0002ED05 /* tabViewController */,
+				EC177D502AFE44B2002FDE49 /* collectionview */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		EC177D502AFE44B2002FDE49 /* collectionview */ = {
+			isa = PBXGroup;
+			children = (
+				EC0794EB2B08DCC20002ED05 /* GenelResimlerHucre.swift */,
+				EC0794F32B0A396D0002ED05 /* AltyazililarHucre.swift */,
+				EC0794F72B0A3B4E0002ED05 /* OnerilenDiziHucre.swift */,
+				EC0794F52B0A3A7C0002ED05 /* TurkiyeIlk10Hucre.swift */,
+				EC0794FA2B0A3BA50002ED05 /* AmazonOrijinallerHucre.swift */,
+			);
+			path = collectionview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC177D312AFE40EC002FDE49 /* PrimeVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC177D462AFE40ED002FDE49 /* Build configuration list for PBXNativeTarget "PrimeVideo" */;
+			buildPhases = (
+				EC177D2E2AFE40EC002FDE49 /* Sources */,
+				EC177D2F2AFE40EC002FDE49 /* Frameworks */,
+				EC177D302AFE40EC002FDE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeVideo;
+			productName = PrimeVideo;
+			productReference = EC177D322AFE40EC002FDE49 /* PrimeVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC177D2A2AFE40EC002FDE49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EC177D312AFE40EC002FDE49 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EC177D2D2AFE40EC002FDE49 /* Build configuration list for PBXProject "PrimeVideo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC177D292AFE40EC002FDE49;
+			productRefGroup = EC177D332AFE40EC002FDE49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC177D312AFE40EC002FDE49 /* PrimeVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC177D302AFE40EC002FDE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC177D422AFE40ED002FDE49 /* LaunchScreen.storyboard in Resources */,
+				EC177D3F2AFE40ED002FDE49 /* Assets.xcassets in Resources */,
+				EC177D3D2AFE40EC002FDE49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC177D2E2AFE40EC002FDE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0794FB2B0A3BA50002ED05 /* AmazonOrijinallerHucre.swift in Sources */,
+				EC0794F42B0A396D0002ED05 /* AltyazililarHucre.swift in Sources */,
+				EC177D362AFE40EC002FDE49 /* AppDelegate.swift in Sources */,
+				EC0794F62B0A3A7C0002ED05 /* TurkiyeIlk10Hucre.swift in Sources */,
+				EC0794EC2B08DCC20002ED05 /* GenelResimlerHucre.swift in Sources */,
+				EC0794F82B0A3B4E0002ED05 /* OnerilenDiziHucre.swift in Sources */,
+				EC0795042B1126690002ED05 /* AnasayfaTabViewController.swift in Sources */,
+				EC177D522AFE45AD002FDE49 /* FilmlerveDiziler.swift in Sources */,
+				EC0794FD2B10B1E00002ED05 /* Anasayfa.swift in Sources */,
+				EC177D382AFE40EC002FDE49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC177D3B2AFE40EC002FDE49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC177D3C2AFE40EC002FDE49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC177D402AFE40ED002FDE49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC177D412AFE40ED002FDE49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC177D442AFE40ED002FDE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC177D452AFE40ED002FDE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC177D472AFE40ED002FDE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrimeVideo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnezgirl.PrimeVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC177D482AFE40ED002FDE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrimeVideo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnezgirl.PrimeVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC177D2D2AFE40EC002FDE49 /* Build configuration list for PBXProject "PrimeVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC177D442AFE40ED002FDE49 /* Debug */,
+				EC177D452AFE40ED002FDE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC177D462AFE40ED002FDE49 /* Build configuration list for PBXNativeTarget "PrimeVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC177D472AFE40ED002FDE49 /* Debug */,
+				EC177D482AFE40ED002FDE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC177D2A2AFE40EC002FDE49 /* Project object */;
+}
